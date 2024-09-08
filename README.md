@@ -17,6 +17,17 @@
 12. ``` ./vendor/bin/sail npm install ```
 13. ``` ./vendor/bin/sail npm run build ```
 14. ``` ./vendor/bin/sail passport:keys ```
+15. Open ``` localhost ``` in your browser to start exploring
+
+<p>How to use:</p>
+
+1. Register a new user first by going to the registration page.
+2. When the user has been registered, it will redirect to the Laravel OAuth Authorization page to initialize the client associated with this new user
+3. All data requests from this point on (eg. displaying data tables, creating, editing and deleting customers will be using the token issued by Laravel Passport.
+4. Once authorized, the user information will be displayed.
+5. To start managing customers, click the user's name on the upper right corner of the page.  A dropdown should appear where the Customer item can be selected.
+6. This is the page where one can manage his/her customers.
+7. All users only have access to their own customers.  Other users are restricted.
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
@@ -24,6 +35,8 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+
+
 
 ## About Laravel
 
