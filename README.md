@@ -29,7 +29,8 @@
 4. Once authorized, the user information will be displayed.
 5. To start managing customers, click the user's name on the upper right corner of the page.  A dropdown should appear where the Customer item can be selected.
 6. This is the page where one can manage his/her customers.
-7. All users only have access to their own customers.  Other users are restricted.
+7. To view the API docs, visit ``` localhost/docs ```
+8. All users only have access to their own customers.  Other users are restricted.
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
