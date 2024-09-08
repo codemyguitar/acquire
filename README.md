@@ -2,7 +2,7 @@
 
 <p>This is a demonstration on how to manage customers using the Laravel Passport OAuth module</p>
 <p>Please follow these steps on how to install:</p>
-<strong>NOTE: Please make sure that no other local server instance (eg. WAMP, LAMP, etc.) is running.</strong>
+<strong>NOTE: Please make sure that no other local server instance (eg. WAMP, LAMP, etc.) is running.  Please make sure also that your local MYSQL service is disabled.</strong>
 
 1. Open a terminal
 2. Clone this repository using the command: ```git clone git@github.com:codemyguitar/acquire.git```
