@@ -1,5 +1,23 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
+<p>This is a demonstration on how to manage customers using the Laravel Passport OAuth module</p>
+<p>Please follow these steps on how to install:</p>
+
+1. Open a terminal
+2. Clone this repository using the command: ```git clone git@github.com:codemyguitar/acquire.git```
+3. cd into the "acquire" directory
+4. copy the .env.example file into .env
+5. ``` composer install ```
+6. ``` php artisan key:generate ```
+7. ``` php artisan sail:install ```
+8. ``` ./vendor/bin/sail up ```
+9. Open another terminal. Please make sure you are in the same directory as the previous terminal.
+10. ``` ./vendor/bin/sail artisan migrate ```
+11. ``` ./vendor/bin/sail artisan scribe:generate ```
+12. ``` ./vendor/bin/sail npm install ```
+13. ``` ./vendor/bin/sail npm run build ```
+14. ``` ./vendor/bin/sail passport:keys ```
+
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
