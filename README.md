@@ -2,6 +2,7 @@
 
 <p>This is a demonstration on how to manage customers using the Laravel Passport OAuth module</p>
 <p>Please follow these steps on how to install:</p>
+<strong>NOTE: Please make sure that no other local server instance (eg. WAMP, LAMP, etc.) is running.</strong>
 
 1. Open a terminal
 2. Clone this repository using the command: ```git clone git@github.com:codemyguitar/acquire.git```
@@ -10,14 +11,15 @@
 5. ``` composer install ```
 6. ``` php artisan key:generate ```
 7. ``` php artisan sail:install ```
-8. ``` ./vendor/bin/sail up ```
-9. Open another terminal. Please make sure you are in the same directory as the previous terminal.
-10. ``` ./vendor/bin/sail artisan migrate ```
-11. ``` ./vendor/bin/sail artisan scribe:generate ```
-12. ``` ./vendor/bin/sail npm install ```
-13. ``` ./vendor/bin/sail npm run build ```
-14. ``` ./vendor/bin/sail passport:keys ```
-15. Open ``` localhost ``` in your browser to start exploring
+8. Select the ```mysql``` service
+9. ``` ./vendor/bin/sail up ```
+10. Open another terminal. Please make sure you are in the same directory as the previous terminal.
+11. ``` ./vendor/bin/sail artisan migrate ```
+12. ``` ./vendor/bin/sail artisan scribe:generate ```
+13. ``` ./vendor/bin/sail npm install ```
+14. ``` ./vendor/bin/sail npm run build ```
+15. ``` ./vendor/bin/sail artisan passport:keys ```
+16. Open ``` localhost ``` in your browser to start exploring
 
 <p>How to use:</p>
 
